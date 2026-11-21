@@ -1,0 +1,9 @@
+--- Eliminacion de los servicios de actores, roles y permisos
+
+DROP SCHEMA IF EXISTS PA_GERENTE CASCADE;
+DROP SCHEMA IF EXISTS PA_ENTRENADOR CASCADE;
+DROP SCHEMA IF EXISTS PA_ADMINISTRADOR CASCADE;
+
+DROP ROLE IF EXISTS rol_gerente;
+DROP ROLE IF EXISTS rol_entrenador;
+DROP ROLE IF EXISTS rol_administrador;
